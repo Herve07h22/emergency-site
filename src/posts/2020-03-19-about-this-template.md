@@ -8,7 +8,7 @@ Cet outil permet du publier un site Internet très simple, très léger, qui est
 
 Il permet de publier des brèves, sous la forme d'article que l'on édite en ligne. L'éditeur en ligne offre un workflow de publication, c'est à dire que chaque article écrit par un utilisateur doit être revu et approuvé avant sa mise en ligne.
 
-## Fonctionnaliés
+## Fonctionnalités
 
 * Génération de sites statiques à l'aide de [Eleventy](https://11ty.dev)
 * Haute performance, avec un score de Google Insight de 96 %
