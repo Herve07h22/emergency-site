@@ -27,7 +27,7 @@ Le plus simple est d'utiliser GitHub et Netlify . Assurez-vous de disposez d'un 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Herve07h22/emergency-site) 
 
-Pour personnaliser le site, modifier le fichier `src/data/meta.json`, et cliquez sur le lien "accès édition" en bas de page.
+Pour personnaliser le site, modifier le fichier `src/data/meta.json`, les styles et couleurs dans `src/inludes/style`, puis cliquez sur le crayon en bas de page à droite.
 
 ## Crédits
 
