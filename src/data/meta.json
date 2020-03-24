@@ -2,7 +2,7 @@
     "title": "Emergency Site",
     "url": "https://emergency-site.dev",
     "description": "A boilerplate for emergency information websites.",
-    "lang": "en",
+    "lang": "fr",
     "dateFormat": "dd LLLL yyyy, T",
     "contact": {
         "email": "information@emergency.org",

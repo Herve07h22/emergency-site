@@ -2,8 +2,8 @@ const { DateTime } = require('luxon')
 const CleanCSS = require('clean-css')
 
 module.exports = {
-    dateToFormat: function(date, format) {
-        return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
+    dateToFormat: function(date, format, lang) {
+        return DateTime.fromJSDate(date, { zone: 'utc', }).setLocale(lang).toFormat(
             String(format)
         )
     },
