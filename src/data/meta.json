@@ -1,11 +1,11 @@
 {
-    "title": "Emergency Site",
+    "title": "Dernières informations",
     "url": "https://emergency-site.dev",
-    "description": "A boilerplate for emergency information websites.",
+    "description": "Un modèle prêt à l'emploi pour les sites d'information d'urgence.",
     "lang": "fr",
-    "dateFormat": "dd LLLL yyyy, T",
+    "dateFormat": "dd LLLL yyyy",
     "contact": {
-        "email": "information@emergency.org",
+        "email": "information@urgence.org",
         "telephone": "+01 234 567 890"
     }
 }

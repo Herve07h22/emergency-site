@@ -6,6 +6,8 @@ publish_mode: editorial_workflow
 media_folder: "src/static/images/uploads"
 public_folder: "/static/images/uploads"
 
+locale: 'fr'
+
 collections:
   - name: "posts"
     label: "Post"
