@@ -1,6 +1,6 @@
 import htm from 'https://unpkg.com/htm?module'
 import format from 'https://unpkg.com/date-fns@2.7.0/esm/format/index.js?module'
-
+import fr from 'https://unpkg.com/date-fns@2.7.0/esm/locale/fr/index.js?module'
 const html = htm.bind(h)
 
 // Preview component for a Post
@@ -15,7 +15,8 @@ const Post = createClass({
                         <time
                             >${format(
                                 entry.getIn(['data', 'date'], new Date()),
-                                'dd LLLL yyyy, T'
+                                'dd LLLL yyyy',
+                                {locale: fr }
                             )}</time
                         >
                     </header>
