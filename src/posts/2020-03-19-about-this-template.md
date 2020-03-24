@@ -8,22 +8,24 @@ Cet outil permet du publier un site Internet très simple, très léger, qui est
 
 Il permet de publier des brèves, sous la forme d'article que l'on édite en ligne. L'éditeur en ligne offre un workflow de publication, c'est à dire que chaque article écrit par un utilisateur doit être revu et approuvé avant sa mise en ligne.
 
-
-
 ## Fonctionnaliés
 
 * Génération de sites statiques à l'aide de [Eleventy](https://11ty.dev)
-* Haute performance, avec un score de Google Insight de xx %
+* Haute performance, avec un score de Google Insight de 96 %
+
+![96% performance](/static/images/uploads/score-lighthouse.png "Scores audit LightHouse")
+
 * Accessibilité préservée par un style épuré
 * Utilisation de Netlify CMS pour la création des articles à plusieurs (5 utilisateurs) 
+
+![Editition d'un article avec Netlify CMS](/static/images/uploads/edition-articles.png "Editition d'un article avec Netlify CMS")
 
 
 
 ## Comment démarrer ?
 
-Le plus simple est de d'utiliser GitHub et Netlify . Assurez-vous de disposez d'un compte d'accès pour ces deux services, puis cliquez sur ce bouton pour réaliser la procédure automatiquement :  
+Le plus simple est d'utiliser GitHub et Netlify . Assurez-vous de disposez d'un compte d'accès pour ces deux services, puis cliquez sur ce bouton pour réaliser la procédure automatiquement :  
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Herve07h22/emergency-site) 
 
 Pour personnaliser le site, modifier le fichier `src/data/meta.json`, et cliquez sur le lien "accès édition" en bas de page.
-
